@@ -28,152 +28,95 @@ header {
 
 .a {
   background-color: red;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-area: 1 / 1/ span 3/ span 4;
 }
 
 .b {
   background-color: white;
-  grid-row-start: 4;
-  grid-row-end: 14;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-area: 4 /1 / span 10 / span 4;
 }
 
 .c {
   background-color: yellow;
-  grid-row-start: 14;
-  grid-row-end: 17;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-area: 14 / 1 / span 3 / span 4;
 }
 
 .d {
   background-color: white;
-  grid-row-start:17;
-  grid-row-end: 23;
-  grid-column-start: 1;
-  grid-column-end: 5;
+  grid-area: 17 / 1 / span 6 / span 4;
 }
 
 .e {
   background-color: white;
-  grid-row-start:23;
-  grid-row-end: 25;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-area: 23 / 1 / span 2 / span 2;
 }
 
 .f {
   background-color: lightgray;
-  grid-row-start: 23;
-  grid-row-end: 25;
-  grid-column-start: 3;
-  grid-column-end: 5;
+  grid-area: 23 / 3 / span 2 / span 2;
 }
 
 .g {
   background-color: lightgrey;
-  grid-row-start: 1;
-  grid-row-end: 9;
-  grid-column-start: 5;
-  grid-column-end: 10;
+  grid-area: 1 / 5 / span 8 / span 5;
 }
 
 .h {
   background-color: white;
-  grid-row-start: 9;
-  grid-row-end: 12;
-  grid-column-start: 5;
-  grid-column-end: 14;
+  grid-area: 9 / 5 / span 3 / span 9;
 }
 
 .i {
   background-color: blue;
-  grid-row-start: 12;
-  grid-row-end: 19;
-  grid-column-start: 5;
-  grid-column-end: 14;
+  grid-area: 12 / 5 / span 7 / span 9;
 }
 
 .j {
   background-color: red;
-  grid-row-start: 19;
-  grid-row-end: 25;
-  grid-column-start: 5;
-  grid-column-end: 11;
+  grid-area: 19 / 5 / span 6 / span 6;
 }
 
 .k {
   background-color: yellow;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  grid-column-start: 10;
-  grid-column-end: 15;
+  grid-area: 1 / 10 / span 4 / span 5;
 }
 
 .l {
   background-color: white;
-  grid-row-start: 1;
-  grid-row-end: 5;
-  grid-column-start: 15;
-  grid-column-end: 19;
+  grid-area: 1 / 15 / span 4 / span 4;
 }
 
 .m {
   background-color: white;
-  grid-row-start: 5;
-  grid-row-end: 9;
-  grid-column-start: 10;
-  grid-column-end: 19;
+  grid-area: 5 / 10 / span 4 / span 9;
 }
 
 .n {
   background-color: white;
-  grid-row-start: 9;
-  grid-row-end: 19;
-  grid-column-start: 14;
-  grid-column-end: 16;
+  grid-area: 9 / 14 / span 10 / span 2;
 }
 
 .o {
   background-color: lightgray;
-  grid-row-start: 9;
-  grid-row-end: 16;
-  grid-column-start: 16;
-  grid-column-end: 19;
+  grid-area: 9 / 16 / span 7 / span 3;
 }
 
 .p {
   background-color: lightgray;
-  grid-row-start: 16;
-  grid-row-end: 19;
-  grid-column-start: 16;
-  grid-column-end: 19;
+  grid-area: 16 / 16 / span 3 / span 3;
 }
 
 .q {
   background-color: white;
-  grid-row-start: 19;
-  grid-row-end: 24;
-  grid-column-start: 11;
-  grid-column-end: 19;
+  grid-area: 19 / 11 / span 5 / span 8;
 }
 
 .r {
   background-color: white;
-  grid-row-start:24;
-  grid-row-end: 25;
-  grid-column-start: 11;
-  grid-column-end: 18;
+  grid-area: 24 / 11 / span 1 / span 7;
 }
 
 .s {
   background-color: blue;
-  grid-row-start:24;
-  grid-row-end: 25;
-  grid-column-start: 18;
-  grid-column-end: 19;
+  grid-area: 24 / 18 / span 1 / span 1;
 }
