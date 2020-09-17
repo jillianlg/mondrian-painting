@@ -13,7 +13,7 @@ _Webpage that demonstrates the use of CSS columns by recreating a Mondrian paint
 * _Clone down repository from Git Hub to machine._
 * _Navigate to root directory._
 * _Open index.html in text editor to view code._
-* _Launch index.html in the browser to display or view via [ghpages](TBD)._
+* _Launch index.html in the browser to display or view via [ghpages](https://jillianlg.github.io/mondrian-painting/)._
 
 ## Known Bugs
 
