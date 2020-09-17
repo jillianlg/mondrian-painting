@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-body, header {
+body, header, footer {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   max-width: 595px; 
@@ -14,10 +14,19 @@ header {
   font-weight: 500;
   font-size: 30px;
   text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 25px;
 }
 
 .grid {
-  border: 5px slategray solid;
+  border: 6px slategray solid;
   background-color: black;
   Width: 585px;
   height: 755px;
