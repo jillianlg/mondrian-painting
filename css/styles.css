@@ -15,11 +15,6 @@ header {
   font-size: 30px;
   text-align: center;
 }
-/* body {
-  margin: 0 auto;
-  max-width: 700px; 
-  padding: 10px;
-} */
 
 .grid {
   border: 5px slategray solid;
@@ -28,13 +23,7 @@ header {
   height: 755px;
   display: grid;
   grid-gap: 10px;
-  /* grid-template-rows: repeat(22, 33px); */
-  /* grid-template-columns: repeat(23, 23px); */
   grid-template: repeat(22, 20px) / repeat(23, 23px);
-}
-
-.box {
-  /* border: 0.5px red dotted; */
 }
 
 .a {
